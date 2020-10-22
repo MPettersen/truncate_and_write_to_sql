@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name = 'truncate-and-write-to-sql',
-    version = '0.1.0',
+    version = '0.1.1',
     author = 'Markus Pettersen',
     author_email = 'mp.markus94@gmail.com',
     description = 'Truncate existing table and write to the table with new entries',
