@@ -4,9 +4,10 @@ with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name = 'truncate-and-write-to-sql-markus',
+    name = 'truncate-and-write-to-sql',
     version = '0.0.0',
     author = 'Markus Pettersen',
+    author_email = 'mp.markus94@gmail.com',
     description = 'Truncate existing table and write to the table with new entries',
     long_description = long_description,
     url = 'https://github.com/MPettersen/truncate_and_write_to_sql',
