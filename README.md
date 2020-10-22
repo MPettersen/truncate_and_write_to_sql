@@ -10,7 +10,6 @@ pip install truncate-and-write-to-sql
 
 ```python
 import pandas as pd
-import urrlib
 from sqlalchemy import create_engine
 
 from truncat_and_write_to_sql.methods import truncate_and_write_sql

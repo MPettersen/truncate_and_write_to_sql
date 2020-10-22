@@ -19,7 +19,7 @@ def truncate_and_write_sql(
         :param table: The name of the table in the database
         :param schema: The database schema, same as for df.to_sql defaults to stg
         :param if_exists: What to do if the table exists in the database, same as
-                          for df.to_sql and defaults to Append
+                            for df.to_sql and defaults to Append
         :param multi: Whether or not to use the mulit as method for df.to_sql
         """
         try:
