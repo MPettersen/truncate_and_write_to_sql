@@ -5,17 +5,18 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name = 'truncate-and-write-to-sql',
-    version = '0.0.0',
+    version = '0.1.0',
     author = 'Markus Pettersen',
     author_email = 'mp.markus94@gmail.com',
     description = 'Truncate existing table and write to the table with new entries',
     long_description = long_description,
+    long_description_content_type = 'text/markdown',
     url = 'https://github.com/MPettersen/truncate_and_write_to_sql',
     packages = setuptools.find_packages(),
-    classfilters = [
+    classifiers = [
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT Licence',
-        'Operating System :: OS Independant',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
     ],
     python_requires = '>=3.8',
 )
